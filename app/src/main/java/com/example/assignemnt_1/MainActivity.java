@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Button submitButton = null;
     private String lastName;
     private String firstName;
+    private TextView resultText =  null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,5 +45,5 @@ public class MainActivity extends AppCompatActivity {
     private void setUserInfo() {
         this.firstName = this.firstNameTextField.getText().toString();
         this.lastName = this.lastNameTextField.getText().toString();
-    }
+    }   
 }
