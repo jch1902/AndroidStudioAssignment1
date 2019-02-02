@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Log.d("First Name: ", firstName);
                 Log.d("Last Name: ", lastName);
+                showResults();
             }
         });
     }
@@ -45,5 +46,8 @@ public class MainActivity extends AppCompatActivity {
     private void setUserInfo() {
         this.firstName = this.firstNameTextField.getText().toString();
         this.lastName = this.lastNameTextField.getText().toString();
-    }   
+    }
+    private void showResults(){
+
+    }
 }
