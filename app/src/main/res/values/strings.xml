@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignemnt_1</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="submit">Submit</string>
+    <string name="hello">Hello! What is your name?</string>
+</resources>
