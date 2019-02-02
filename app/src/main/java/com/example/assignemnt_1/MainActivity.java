@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         // Initialize variables
         this.firstNameTextField = findViewById(R.id.firstName);
         this.lastNameTextField = findViewById(R.id.lastName);
+        this.resultText = findViewById(R.id.textViewResult);
 
         this.submitButton = (Button)findViewById(R.id.button);
         this.submitButton.setOnClickListener(new View.OnClickListener() {
@@ -49,5 +50,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void showResults(){
         String resultStr = "Hello! Nice to meet you " + firstName + " " + lastName;
+
+        this.resultText.setText(resultStr);
     }
 }
