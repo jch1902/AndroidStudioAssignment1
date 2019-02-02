@@ -48,6 +48,6 @@ public class MainActivity extends AppCompatActivity {
         this.lastName = this.lastNameTextField.getText().toString();
     }
     private void showResults(){
-
+        String resultStr = "Hello! Nice to meet you " + firstName + " " + lastName;
     }
 }
